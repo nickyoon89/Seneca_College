@@ -1,0 +1,32 @@
+Script started on Mon 22 May 2017 08:58:56 PM EDT
+cameron.gray@matrix:~/_staging/144/ws03/in_lab> ws
+---=== IPC Temperature Analyzer ===---
+Enter the high value for day 1: 8
+
+Enter the low value for day 1: -2
+
+Enter the high value for day 2: 41
+
+Enter the low value for day 2: -4
+
+Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.
+
+Enter the high value for day 2: 9
+
+Enter the low value for day 2: -4
+
+Enter the high value for day 3: 5
+
+Enter the low value for day 3: 11
+
+Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.
+
+Enter the high value for day 3: 11
+
+Enter the low value for day 3: 5
+
+The average (mean) temperature was: 4.50
+cameron.gray@matrix:~/_staging/144/ws03/in_lab> exit
+exit
+
+Script done on Mon 22 May 2017 08:59:14 PM EDT

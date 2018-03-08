@@ -1,0 +1,5 @@
+1)In two or three sentences discuss the advantages of using an array of structs versus parallel arrays when dealing with related data 
+We don't have to use many variables for many fields. Structure can contain as many as I want. Besides, easy to update information or remove as it's already in same index in same variable.
+
+2)The preferred method of declaring a struct data type is in a header file. Briefly explain why. Hint: this is explained in the notes.
+If we use header file, we can use the structure in many files by #include [headerfilename] without declaring it again and again.

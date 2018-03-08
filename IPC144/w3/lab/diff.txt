@@ -1,0 +1,10 @@
+
+In line number 3 of your output:
+The output should be:
+---=== IPC Temperature Analyzer ===---
+But your output is: 
+If '-2' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+^
+|
+Professor's character ASCII code: hex(2d), dec(45)
+un-matched character ASCII code: hex(49), dec(73)

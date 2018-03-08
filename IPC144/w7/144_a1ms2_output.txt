@@ -1,0 +1,45 @@
+Script started on Sun 15 Oct 2017 09:41:19 PM EDT
+cameron.gray@matrix:~/Documents/a1/ms2> ms2
+Contact Management System
+-------------------------
+Please enter the contact's first name: Tom
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): Wong
+Please enter the contact's last name: Song
+Please enter the contact's street number: 20
+Please enter the contact's street name: Keele
+Do you want to enter an appartment number? (y or n): y
+Please enter the contact's appartment number: 40
+Please enter the contact's postal code: A8A 4J4
+Please enter the contact's city: Toronto
+Do you want to enter a cell phone number? (y or n): Y
+Please enter the contact's cell phone number: 905-111-6666
+Do you want to enter a home phone number? (y or n): Y
+Please enter the contact's home phone number: 705-222-7777
+Do you want to enter a business phone number? (y or n): Y
+Please enter the contact's business phone number: 416-333-8888
+
+Contact Details
+---------------
+Name Details
+First name: Tom
+Middle initial(s): Wong
+Last name: Song
+
+Address Details
+Street number: 20
+Street name: Keele
+Apartment: 40
+Postal code: A8A 4J4
+City: Toronto
+
+Phone Numbers:
+Cell phone number: 905-111-6666
+Home phone number: 705-222-7777
+Business phone number: 416-333-8888
+
+Structure test for Name, Address, and Numbers Done!
+cameron.gray@matrix:~/Documents/a1/ms2> exit
+exit
+
+Script done on Sun 15 Oct 2017 09:42:35 PM EDT
