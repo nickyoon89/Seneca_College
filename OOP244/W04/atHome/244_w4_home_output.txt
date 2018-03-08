@@ -1,0 +1,44 @@
+----------------------------------------
+Testing the validation logic
+(only passengers 5, 8 and 11 should be valid)
+----------------------------------------
+Passenger 1: not valid
+Passenger 2: not valid
+Passenger 3: not valid
+Passenger 4: not valid
+Passenger 5: valid
+Passenger 6: not valid
+Passenger 7: not valid
+Passenger 8: valid
+Passenger 9: not valid
+Passenger 10: not valid
+Passenger 11: valid
+Passenger 12: not valid
+Passenger 13: not valid
+Passenger 14: not valid
+Passenger 15: not valid
+----------------------------------------
+
+----------------------------------------
+Testing Passenger::display(...)
+----------------------------------------
+Vanessa - Toronto on 2018/04/20
+John - Toronto on 2018/04/20
+Alice - Toronto on 2018/04/20
+Bob - Paris on 2018/01/20
+Jennifer - Toronto on 2018/04/20
+Mike - Toronto on 2018/04/20
+Sarah - Toronto on 2018/04/20
+----------------------------------------
+
+----------------------------------------
+Testing Passenger::canTravelWith(...)
+----------------------------------------
+David can travel with Vanessa
+David can travel with John
+David can travel with Alice
+David can travel with Jennifer
+David can travel with Mike
+David can travel with Sarah
+----------------------------------------
+

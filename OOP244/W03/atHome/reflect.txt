@@ -1,0 +1,52 @@
+/**********************************************************
+// Workshop 3: Classes and Privacy
+// CRA_Account.cpp
+// Name: Jihyun Yoon
+// email: jyoon31@myseneca.ca
+// Student#: 124558172
+// Revision History
+///////////////////////////////////////////////////////////
+// Name			Date		                         Reason
+// Jihyun        2018/02/06                        file made
+///////////////////////////////////////////////////////////
+**********************************************************/
+
+1)How many elements are there in each C-style character string that stores a family or given name for the account? Why?
+The C-String array size is 40, and they store 39 characters each. 
+Because this size includes terminator value which is '\0' at the end. it means the string is ended.
+So, as the result, size-40 C-string array can hold 39 letters.
+
+2)Your class declares two member functions named set(...).  In C, this would generate an error.  Name the feature of C++ that allows this.
+Overloading.
+Which means you can make same named function if the Function Signature(the function identifier, the parameter type, the order of the parameter types) is different. So when you are using that function, the function will perform different code depends on the parameter types and order.
+
+3)What have you learned during this workshop?
+- How to make overload function
+- How to make class and use it
+- How to deal with private variables using public functions
+- What "%" operator means
+- "pow" function
+- Checking if string is empty by '\0'
+- "sizeOf" function is not returning int array's length 
+
+Quie 03 Reflection 
+
+*Couldn't manage to make the code makes sense.
+
+#ifndef QUIZ03_PAINTING_H
+#define QUIZ03_PAINTING_H
+
+namespace quiz03
+{
+    class Painting                                    //Making class named Painting
+    {
+        int p_date;                                   //When it is drown. YYYYMMDD
+        char* p_title;                                //The name of the art
+    public:
+        // query
+        int getDate() const;                          //Get the Date of the art
+        // mutator
+        void setTitle(char* title);                   //Change the title
+    };
+}
+#endif // QUIZ03_PAINTING_H  

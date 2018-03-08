@@ -1,0 +1,22 @@
+----------------------------------------
+Testing the validation logic
+(only passenger 5 should be valid)
+----------------------------------------
+Passenger 1: not valid
+Passenger 2: not valid
+Passenger 3: not valid
+Passenger 4: not valid
+Passenger 5: valid
+Passenger 6: not valid
+Passenger 7: not valid
+----------------------------------------
+
+----------------------------------------
+Testing the display function
+----------------------------------------
+Vanessa - Paris
+Mike - Tokyo
+Alice - Paris
+No passenger!
+----------------------------------------
+
