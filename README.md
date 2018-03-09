@@ -1,4 +1,4 @@
-# Seneca_College
+# Seneca_College OOP244
 ## Seneca College works
 
 IPC144: Intro to Programing using C
