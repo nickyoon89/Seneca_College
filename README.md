@@ -1,5 +1,5 @@
 # Seneca_College
-Seneca College works
+## Seneca College works
 
 IPC144: Intro to Programing using C
 
