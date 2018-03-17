@@ -1,6 +1,0 @@
-1)In one or two sentences explain why the arrays in this program have to be declared to hold 10 elements?
-As we didn't learn dynamic array, so it should be fixed array. As the result, we should choose the maximum size possiblilty, which is 10.
-2)In two or three sentences explain the advantages and disadvantages of using matching arrays?
-The best benefit is we can store many data group in one variable. It makes program more structured and easy to manage. However, in case of the workshop, as we declare always maximum size array, it can waste the unnecessary memory
-3)Was the at home portion of this workshop too easy, just right or too hard? Why? 
-Just right. It was a little bit challenging but not too much, which can make me motivated.

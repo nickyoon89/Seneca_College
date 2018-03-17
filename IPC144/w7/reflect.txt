@@ -1,8 +1,0 @@
-1.Can you think of a more efficient way to ask a user to add the required information to each data field?
-- In case of name, we can get full name first and cut it automatically as first, middle and last name
-- In case of address, by the detail address, we can autofill the city or postal code.
-- In case of phone, as someone can have two cellphone, so we can make user to choose what kind of number it is first, then put number.
-- Every (y or n) question can be removed. but if user want to skip the question simply click enter to move to next question.
-
-2.Explain why a C string that is required to store up to 25 characters must be capable of storing 26 characters.
-There is terminal valus in String as '\0' and it takes one character
