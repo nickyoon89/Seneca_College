@@ -1,0 +1,13 @@
+3. Briefly explain how the two functions findContactIndex and getTenDigitPhone benefit
+   your source code with repect to overall mainenance and readability.
+
+The two functions are used a lot of time. So by we use these functions, we don't have to repeat same codes again and again.
+By that, the code get shorten. Besides, they are including their validation check.
+As the result overall mainenance and readability get better.
+
+4. What did you learn most from doing Assingment 2?
+
+- The usage of functions.
+- manage of printf and scanf.
+- using same function file to file through #include
+- how to use pointer

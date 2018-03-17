@@ -1,0 +1,10 @@
+
+In line number 33 of your output:
+The output should be:
+(Press Enter to Continue)
+But your output is: 
+(Press Enter to Continue)2
+                         ^
+-------------------------|
+Professor's character ASCII code: hex(d), dec(13)
+un-matched character ASCII code: hex(32), dec(50)

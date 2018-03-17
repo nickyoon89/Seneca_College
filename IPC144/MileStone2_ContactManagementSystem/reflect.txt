@@ -1,0 +1,14 @@
+1.Briefly explain why you think this assignment has asked you to 
+code a struct, Contact, that holds three other structs as data members.
+As the struct Name, Address, Numbers are always going together.
+So to prevent wasting time to declare 3 structs every time we use, 
+we make Contact struct to hold those 3 structs.
+It will be clearer and effective.
+
+2. What was the most difficult part of this assignment?
+I couldn't understand contacts.c and a1ms4.c are seperated, 
+but a1m4.c still can use declared functions from contacts.c.
+So I got confused at the first 5~10 minutes.
+
+3. How long did it tak you to complete Milestone 4? 
+roughly 30 mins

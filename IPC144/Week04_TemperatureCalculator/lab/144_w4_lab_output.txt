@@ -1,0 +1,25 @@
+Script started on Sun 28 May 2017 09:20:36 PM EDT
+cameron.gray@matrix:~/_staging/144/ws04/in_lab> e[Kws
+---=== IPC Temperature Calculator V2.0 ===---
+Please enter the number of days, between 3 and 10, inclusive: 2
+
+Invalid entry, please enter a number between 3 and 10, inclusive: 4
+
+Day 1 - High: 6
+Day 1 - Low: -2
+Day 2 - High: 8
+Day 2 - Low: -1
+Day 3 - High: 7
+Day 3 - Low: -3
+Day 4 - High: 9
+Day 4 - Low: -4
+
+Day  Hi  Low
+1    6    -2
+2    8    -1
+3    7    -3
+4    9    -4
+cameron.gray@matrix:~/_staging/144/ws04/in_lab> exit
+exit
+
+Script done on Sun 28 May 2017 09:21:08 PM EDT

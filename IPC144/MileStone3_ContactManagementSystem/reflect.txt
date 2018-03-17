@@ -1,0 +1,10 @@
+1. In 3 or 4 sentences explain the term “function” and briefly discuss the need for functions in any
+language?
+Function is set of specific statements. 
+We can use it in any other part of the code if we include the function.
+We need it because we can save time to rewrite same set of statements again and again. 
+As the result it also make the code looks better.
+
+2. Briefly explain why you think the "helper" functions are in
+Helper functions perform very common functions such as getting yes or no, integer and so on.
+So it's very useful in many codes. Besides as we seperate it from main code, the main code get clearer.
