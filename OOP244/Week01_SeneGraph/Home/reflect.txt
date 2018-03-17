@@ -1,0 +1,31 @@
+Name: Jihyun Yoon
+Email: jyoon31@myseneca.ca
+Student Number: 124558172
+
+1. What is a namespace? Explain its purpose.
+There is a chance to use same identifiers in team projects because there are several developers. To avoid this situation, we can seperate identifiers purposely by using namespace. Namespace is specific area you can scop variables. defining a namespace as
+ namespace identifier {
+
+ }
+variables in braces would belong to the namespace. So if the variables have same name but belong to different namespace, there wouldn't be conflict.
+
+2. Why are header files needed? Explain.
+header files include repeated definitions. By using it, you don't have to define protorype or variables again and again. In the header file, you can locate global static value, function prototypes and so on. Then in source .cpp file, you can include those header files as
+ #include "HEADERFILENAME.h"
+This will work as the header file contents are in the .cpp file. Also it makes your code redability better because it became much brief. 
+
+3. In the instructions above, you were directed to compile only .cpp files but not the .h files. Explain why you should never compile header files.
+While compiling .cpp files. #include "HEADERFILE.h" would be changed to header contents itself. Therefore, if we compile header file, it would be repeated without any point.
+
+4. Explain why you should never include .cpp files in another file.
+Like question 3, #include will be changed to the included file's contents. Therefore, if you include .cpp file, compiler would complie the .cpp contents everytime when it's included and then compile it again. As the result, the included .cpp file would be compiled multiple times and it will slow down the progress.
+
+5. Explain in your own words what have you learned on this workshop.
+- benefits of seperating .cpp file
+I seperated one file to 3 .cpp files and 2 headers. By seperating it, I could see how the code became easy to find specific functions I want to look in.
+- how to use header files
+I learned how to make header files and what contents should be in it. Also learned how to include it to specific .cpp files. 
+- how to use namespace
+I changed a code using "std" namespace only to using "sict" namespace as well. I learned how to declare new namespace and put contents in it. Also learned how to use it in main function.
+- how to solve errors.
+While doing the workshop, there was various errors. To solve it, I had to read them and figure out. 

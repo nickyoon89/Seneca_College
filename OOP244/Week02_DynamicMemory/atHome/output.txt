@@ -1,0 +1,42 @@
+Script started on Sat 03 Feb 2018 05:43:13 AM EST
+jyoon31@matrix:~/OOP/W02/atHome> ws
+==========
+Input data
+==========
+Enter the number of Kingdoms: 2
+Kingdom #1: 
+Enter the name of the Kingdom: The_Vale
+Enter the number of people living in The_Vale: 234567
+Kingdom #2: 
+Enter the name of the Kingdom: The_Reach
+Enter the number of people living in The_Reach: 567890
+==========
+
+------------------------------
+The 1st kingdom entered is
+------------------------------
+The_Vale, population 234567
+------------------------------
+
+==========
+Input data
+==========
+Kingdom #3: 
+Enter the name of the Kingdom: The_Riverlands
+Enter the number of people living in The_Riverlands: 123456
+==========
+
+------------------------------
+Kingdoms are
+------------------------------
+1. The_Vale, population 234567
+2. The_Reach, population 567890
+3. The_Riverlands, population 123456
+------------------------------
+Total population of all Kingdoms: 925913
+------------------------------
+
+jyoon31@matrix:~/OOP/W02/atHome> exit
+exit
+
+Script done on Sat 03 Feb 2018 05:43:40 AM EST
