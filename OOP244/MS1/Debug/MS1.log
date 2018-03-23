@@ -1,6 +1,0 @@
-﻿  Date.cpp
-c:\users\nick\desktop\seneca\semester2\ms1\ms1\date.cpp(75): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(439): note: see declaration of 'strtok'
-c:\users\nick\desktop\seneca\semester2\ms1\ms1\date.cpp(88): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(439): note: see declaration of 'strtok'
-  MS1.vcxproj -> C:\Users\Nick\Desktop\Seneca\Semester2\MS1\MS1\Debug\MS1.exe
