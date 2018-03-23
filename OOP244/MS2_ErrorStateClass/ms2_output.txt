@@ -1,0 +1,27 @@
+Script started on Mon 19 Mar 2018 10:02:34 AM EDT
+cornel.barna@matrix:**********> ms2
+[1m[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Testing Error State Module
+
+isClear(): Passed!
+
+===========| Long Message***********
+Some error message that is really long long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long long  long  long  long  long  long  long  long  long  long  long  long  long
+isClear(): Passed!
+
+Short Message
+Short Message
+isClear(): Passed!
+
+isClear(): Passed!
+
+You passed all the tests!
+
+[1m[38;5;9m------------------------
+End Testing the Program![0m
+cornel.barna@matrix:**********> exit
+exit
+
+Script done on Mon 19 Mar 2018 10:03:00 AM EDT
