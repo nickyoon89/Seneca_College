@@ -1,0 +1,24 @@
+1. Does the Hero class need to know about the existence of the SuperHero class? (Hint: do a search in Hero.cpp, does the word “SuperHero” appear anywhere?) 
+No it doesn't have to know about the SuperHero.
+
+2. Does the SuperHero class need to know about the existence of the Hero class? (Hint: do a search in SuperHero.cpp, does the word “Hero” appear anywhere?)
+Yes it should know about Hero.
+
+3. The program prints out “Ancient Battle!” when 2 Heroes fight. It prints out “Super Fight!” when 2 SuperHeroes fight. When you tried to make a Hero fight a SuperHero, what did it print out?
+It shows "Ancient Battle!"
+
+4. True or False: are the following definitions for main valid? 
+int main() {
+  Hero("Achilles", 20, 6) * Hero("Hector", 30, 5);
+}
+True (but guess it should return int value for main)
+
+how about this?
+
+int main() {
+ (Hero("Achilles", 20, 6) * Hero("Hector", 30, 5)) 
+                          *
+ (Hero("Atalanta", 10, 3) * Hero("Hippolyta", 10, 2));
+}
+
+True (but guess it should return int value for main)

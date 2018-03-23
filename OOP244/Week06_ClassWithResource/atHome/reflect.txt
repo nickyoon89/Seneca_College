@@ -1,0 +1,20 @@
+1)	Why does the copy assignment operator check for self-assignment before doing anything else?
+Because when it's self-assignment, we should be careful about allocating dynamic memory.
+Normally, we make new pointer with new length before we allocate dynamic memory.
+However, in case of self-assignment, it means you removes data what you wanted to copy.
+So we should check if it's self-assigment before we do it, and when it's self-assignment, we can just return the current object.
+
+2)	List how you avoided duplication of code.
+- Every time when I need to make it safe empty state, I used default Constructor.
+- I made "phoneValid(int)" function, so that I can use when I need to validate phone numbers
+- used 3 parameters Constructor when I have to put the data in new Contact object.
+- used = operator to perform copy constructor.
+
+3)	List what you have learned in completing this workshop.
+- overloading operator= is very sensitive issue. 
+  I used it in the operator function itself like "*this = Contact();", it makes the function loop infinitely.
+  So I avoid that in the function
+- I learned about new number format with 'e'. which is 100000 as 1e5
+- I learned about copy Constructor and how to copy dynamic variables.
+- I learned about copy assignment operator and how this function can make issue when there is self-assignment
+- I learned when I should use pointer. However still need to work on more.
