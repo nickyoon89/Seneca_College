@@ -1,0 +1,60 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: __Jihyun Yoon__ Student ID: _124558172_ Date: _2018/03/22_ 
+* 
+********************************************************************************/
+
+body {
+    color: #6b0000;
+}
+
+nav, footer {
+    background-color: #5a0000; 
+}
+
+header {
+    background-color: #ffecec;
+    border: 1px solid #5a0000;
+}
+
+h1.app-title {
+    font-family: 'Limelight', cursive;
+    padding: 10px;
+    margin: 0px;
+    font-weight: 900;
+}
+
+div.main-table-container{
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #d6d2d2;
+}
+
+table.main-table-top th{
+    background-color: #ffecec;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #d6d2d2;
+}
+
+table.main-table td{
+    padding: 10px;
+    font-size: 12px;
+    vertical-align: top;
+    border: 1px solid #d6d2d2;
+}
+
+table.main-table p span{
+    text-align: center;
+    text-shadow: 1px 1px #daad86;
+}

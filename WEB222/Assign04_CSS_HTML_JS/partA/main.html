@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Nick's Pets</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/assignment4-theme.css" />
+        <link rel="stylesheet" href="css/a4-main.css" />
+        <script src="js/data.js"></script>
+        <script src="js/a4-main.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <h1 class="app-title">
+                    Adorable Pets
+                </h1>
+            </div>
+        </header>
+        <nav>
+            <div class="center">
+                <ul>
+                    <li><a onclick="filterAllPets()">All Pets</a></li>
+                    <li><span>|</span></li>
+                    <li><a onclick="filterDog()">Dogs</a></li>
+                    <li><a onclick="filterCat()">Cats</a></li>
+                    <li><a onclick="filterBird()">Birds</a></li>
+                    <li><span>|</span></li>
+                    <li><a onclick="filter_zero_1()">&lt; 1 year</a></li>
+                    <li><a onclick="filter_1_3()">1 - 3 years</a></li>
+                    <li><a onclick="filter_4_plus()">4+ years</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="main center">
+            <table class="main-table-top">
+                <tbody>
+                    <tr>
+                        <th>Photo</th>
+                        <th>Description</th>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="main-table-container">
+                <table class="main-table">
+                    <tbody id="main-table-body">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <footer>
+            <div class="center">
+                &copy; 2018 Jihyun Yoon
+            </div>
+        </footer>
+    </body>
+</html>
+
+
