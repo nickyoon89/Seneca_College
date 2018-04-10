@@ -1,0 +1,26 @@
+1. What is the difference between an abstract base class and a concrete class?
+an abstract base class has at least one pure virtual function. This is not implemented in the class but it should be implemented in derived classes. Otherwise, concrete class declare the various impementation of their parent class. It shouldn't have any pure virtual function left.
+
+2. Identify the functions that shadow functions of the same name in your solution?
+ChequingAccount::credit(double balance)
+ChequingAccount::debit(double balance)
+Other same-named functions such as display, monthEnd does not have base function.
+So they are not shadowing but overriding.
+
+3. Explain what have you learned in this workshop.
+- More understanding of inheritance
+- How to use pure virtual functions
+- How to make various derived objects by one function (allocator)
+- How to fix the precision
+- How to call parent class's function inside of derived function even it's same name
+- How to make shadow function and how it works
+
+
+Quiz #8 Reflection
+
+2. In C++, what is abstract class? How can be one created?
+Abstract class is a class with a pure virtual function. This class will be inherited by others and each classes will have different implementation with this pure virtual function. We can make it by putting "virtual" in front of the function definition.
+For example, we can make "Person" class with "getInfo" function as a pure virtual function. Then, "Student" and "Prof" classes inherit "Person" class. As the result, "Student"'s "getInfo" function will get information about StudentID, GPA, major and etc. Meanwhile, "Prof" will get information such as reputation, teaching lectures, office location.
+
+3. Explain the concept of late binding(or dynamic dispatch) in C++
+Dynamic dispatch is concept of a pure virtual function. This makes compiler to delay calling the function til the run-time. When it's called, it will do the most derived version of the function.

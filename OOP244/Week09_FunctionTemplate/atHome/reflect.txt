@@ -1,0 +1,27 @@
+1. What happens if you try to put your templated functions in Data.cpp? Does your source code compile if you move all functions to Data.h? Explain.
+If I put every template implementation, it says there is "unresolved external symbol". And yes if compiles perfectly if I move them to the header file. This is the rule that template implementation will be executed during compile time for each client type from header file. When there is specific type in cpp file, it will look up the template from header and excute with that specific type.
+
+2. Move one templated function into ws9_lab.cpp. Does it work now? Do you need to define the template function above main(), before it is used, or can you define it below main()?
+It should be above the main() function. As including header is same as copy the code there, it works in that way. but if It's below the main function, it's not defined when the main function is excuted, it can't be working.
+
+3. Could you have done this lab without templates, by just overloading your functions in Data.h to accept integer and double arguments? What is the advantage of using templates? 
+I can do that by overloading functions for integer and double. But we know it works exactly same except the difference of parameter. So, even the parameter type is different, you seem like making duplicate functions. However, if you use template function, you don't have to make the same functions twice for different parameters. It will accept any type but work in same way.
+
+4. Are the following equivalent? 
+template<class T> 
+template<typename T> 
+It's basically equivalent. However, when we make template template, we should use class instead of typename. if we put typename in it, it will show the error as "error: expected 'class' before ~"
+
+Quiz #9 Reflection
+
+2. 
+Student(const Student&);
+Student& operator+=(const Student&);
+~Student();
+
+3.
+Student(const Student&): It should be implemented because on 4th line, it constructs Student object by other Student.
+Student& operator+=(const Student&): This implementation is needed because there is no default of "Student+=Student".
+~Student(): The return type is Student and it's declared in function scope. So it will be destructed after the function is fully excuted. Therefore, we need destructor.
+
+3.

@@ -1,0 +1,45 @@
+[1m[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+******************************
+DISPLAY Accounts for Angelina:
+******************************
+Account type: Savings
+Balance: $400.00
+Interest Rate (%): 5.00
+-----------------------
+Account type: Savings
+Balance: $400.00
+Interest Rate (%): 5.00
+******************************
+
+DEPOSIT $2000 into Angelina Accounts ...
+WITHDRAW $1000 and $500 from Angelina's Accounts ... 
+
+******************************
+DISPLAY Accounts for Angelina:
+******************************
+Account type: Savings
+Balance: $1400.00
+Interest Rate (%): 5.00
+-----------------------
+Account type: Savings
+Balance: $1900.00
+Interest Rate (%): 5.00
+******************************
+
+******************************
+DISPLAY Accounts for Angelina:
+******************************
+Account type: Savings
+Balance: $1470.00
+Interest Rate (%): 5.00
+-----------------------
+Account type: Savings
+Balance: $1995.00
+Interest Rate (%): 5.00
+******************************
+
+
+[1m[38;5;9m------------------------
+End Testing the Program![0m
