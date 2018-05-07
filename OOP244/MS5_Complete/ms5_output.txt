@@ -1,0 +1,223 @@
+Script started on Mon 02 Apr 2018 12:03:44 PM EDT
+cornel.barna@matrix:*********> ms5
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+--Product test:
+----Taxed validation test:
+Enter the following: 
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): a
+
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): a
+
+Passed!
+ Message should be:  Only (Y)es or (N)o are acceptable
+ Your Error message: Only (Y)es or (N)o are acceptable
+Press enter to continue ... 
+
+----Price validation test:
+Enter the following: 
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: abc
+
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: abc
+
+Passed!
+ Message should be:  Invalid Price Entry
+ Your Error message: Invalid Price Entry
+Press enter to continue ... 
+
+----Quantity validation test:
+Enter the following: 
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: 10
+ Quantity on hand: abc
+
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: 10
+ Quantity on hand: abc
+
+Passed!
+ Message should be:  Invalid Quantity Entry
+ Your Error message: Invalid Quantity Entry
+Press enter to continue ... 
+
+----Quantity Needed validation test:
+Enter the following: 
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: 10
+ Quantity on hand: 10
+ Quantity needed: abc
+
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: 10
+ Quantity on hand: 10
+ Quantity needed: abc
+
+Passed!
+ Message should be:  Invalid Quantity Needed Entry
+ Your Error message: Invalid Quantity Needed Entry
+Press enter to continue ... 
+
+----Display test, the output of the Program and yours must match:
+Enter the following: 
+ Sku: 1234
+ Name (no spaces): box
+ Unit: kg
+ Taxed? (y/n): y
+ Price: 123.45
+ Quantity on hand: 1
+ Quantity needed: 5
+
+ Sku: 1234
+ Name (no spaces): box
+ Unit: kg
+ Taxed? (y/n): y
+ Price: 123.45
+ Quantity on hand: 1
+ Quantity needed: 5
+
+-Compare the output of the Program and your output:
+--Linear------------
+ Program: 1234   |box                 | 139.50|   1|kg        |   5|
+   Yours: 1234   |box                 | 139.50|   1|kg        |   5|
+--Form Display------
+--Program: 
+ Sku: 1234
+ Name (no spaces): box
+ Price : 123.45
+ Price after tax : 139.50
+ Quantity on hand : 1 kg
+ Quantity needed : 5
+--Yours: 
+ Sku: 1234
+ Name (no spaces): box
+ Price: 123.45
+ Price after tax: 139.50
+ Quantity on Hand: 1 kg
+ Quantity needed: 5
+Press enter to continue ... 
+
+----Storage and loading test, the output of the Program and yours must match:
+--Store Product, program: 
+N,1234,box,kg,1,123.45,1,5
+N,1234,box,kg,1,123.45,1,5
+--Store Product, yours: 
+N,1234,box,kg,1,123.45,1,5
+N,1234,box,kg,1,123.45,1,5
+--Load Product: 
+ Program: 1234   |box                 | 139.50|   1|kg        |   5|
+   Yours: 1234   |box                 | 139.50|   1|kg        |   5|
+
+--Perishable Item test:
+----Expiry date Validation test:
+Enter the following: 
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): n
+ Price: 10
+ Quantity on hand: 10
+ Quantity needed: 10
+ Expiry date (YYYY/MM/DD): 10/1/1
+
+ Sku: abc
+ Name (no spaces): abc
+ Unit: abc
+ Taxed? (y/n): n
+ Price: 10
+ Quantity on hand: 10
+ Quantity needed: 10
+ Expiry date (YYYY/MM/DD): 10/1/1
+
+Passed!
+ Message should be:  Invalid Year in Date Entry
+ Your Error message: Invalid Year in Date Entry
+Press enter to continue ... 
+
+----Display test, the output of the Program and yours must match:
+Enter the following: 
+ Sku: 1234
+ Name (no spaces): water
+ Unit: liter
+ Taxed? (y/n): n
+ Price: 1.5
+ Quantity on hand: 1
+ Quantity needed: 5
+ Expiry date (YYYY/MM/DD): 2018/06/30
+
+ Sku: 1234
+ Name (no spaces): water
+ Unit: liter
+ Taxed? (y/n): n
+ Price: 1.5
+ Quantity on hand: 1
+ Quantity needed: 5
+ Expiry date (YYYY/MM/DD): 2018/06/30
+
+-Compare the output of the Program and your output:
+--Linear------------
+ Program: 1234   |water               |   1.50|   1|liter     |   5|2018/06/30
+   Yours: 1234   |water               |   1.50|   1|liter     |   5|2018/06/30
+--Form Display------
+--Program: 
+ Sku: 1234
+ Name (no spaces): water
+ Price : 1.50
+ Price after tax : N/A
+ Quantity on hand : 1 liter
+ Quantity needed : 5
+ Expiry date : 2018/06/30
+--Yours: 
+ Sku: 1234
+ Name (no spaces): water
+ Price: 1.50
+ Price after tax: N/A
+ Quantity on Hand: 1 liter
+ Quantity needed: 5
+ Expiry date: 2018/06/30
+
+Press enter to continue ... 
+
+----Storage and loading test, the output of the Program and yours must match:
+--Store Perishable, program: 
+P,1234,water,liter,0,1.5,1,5,2018/06/30
+P,1234,water,liter,0,1.5,1,5,2018/06/30
+--Store Perishable, yours: 
+P,1234,water,liter,0,1.5,1,5,2018/06/30
+P,1234,water,liter,0,1.5,1,5,2018/06/30
+--Load Perishable: 
+ Program: 1234   |water               |   1.50|   1|liter     |   5|2018/06/30
+   Yours: 1234   |water               |   1.50|   1|liter     |   5|2018/06/30
+
+[38;5;9m------------------------
+End Testing the Program![0m
+cornel.barna@matrix:*********> exit
+exit
+
+Script done on Mon 02 Apr 2018 12:07:15 PM EDT

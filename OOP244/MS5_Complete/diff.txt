@@ -1,0 +1,10 @@
+
+In line number 100 of your output:
+The output should be:
+ Taxed? (y/n): y
+But your output is: 
+ Taxed? (y/n): 123.45
+               ^
+---------------|
+Professor's character ASCII code: hex(79), dec(121)
+un-matched character ASCII code: hex(31), dec(49)

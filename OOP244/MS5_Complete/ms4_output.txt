@@ -1,0 +1,34 @@
+Script started on Mon 02 Apr 2018 11:46:12 AM EDT
+cornel.barna@matrix**********> ms4
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Linear: one two 
+As is: 
+one
+two
+
+Enter the following: 
+three<ENTER>
+four<ENTER>
+Ctrl^D<ENTER>
+
+three
+four
+one two three four 
+one
+two
+three
+four
+
+sku match
+Product < Perishable
+45|32|131|32
+113.5
+
+[38;5;9m------------------------
+End Testing the Program![0m
+cornel.barna@matrix:*********> exit
+exit
+
+Script done on Mon 02 Apr 2018 11:46:50 AM EDT
