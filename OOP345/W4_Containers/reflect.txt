@@ -1,0 +1,14 @@
+1. identification of the Notifications class as a composition, aggregation or association
+   Composition.
+   Because it always contain Message object inside. Depends on the file, Notification object will create the Message object. 
+   Also, Notifications object is responsible for destroying the object on its destructor.
+
+2. the corrected answers to the latest quiz that you received
+   Got 10 points of the recent quiz.
+
+3. a description of what you learned in completing this workshop
+  - how to split string object by delimit.
+  - the fact that I don't have to use strcpy, strcmp functions for string object
+  - how to check if the string is empty (length() function)
+  - how to use string related functions such as find, substr, erase
+  - the usage of std::string::npos

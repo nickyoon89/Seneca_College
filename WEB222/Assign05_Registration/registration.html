@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Yoon's Registration</title>
+        <!--including css and js-->
+        <link rel="stylesheet" href="normalize1.css" />
+        <script src="registration.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="head">
+                <h1 class="name">
+                    WEB222 Assignment5
+                </h1>
+            </div>
+        </header>
+        <div class = "main">
+            <!--Navigation-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Welcome Page</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                </ul>
+            </nav>
+            <!--Main contents-->
+            <div class="main-content">
+                <!--Form Start-->
+                <form id="signup" name="signup" method="POST" action="https://httpbin.org/post" onsubmit="return formValidation()">
+                    <!--Every input will excute function named "valid()" in order to something type in-->
+                    <h4>User Name</h4>
+                    <span>First Name: </span><br><input onkeyup="valid()" type="text" name="fname" tabindex="1" required><br>
+                    <span>Last Name: </span><br><input onkeyup="valid()" type="text" name="lname" tabindex="2" required><br>
+                    <h4>Shipping Address</h4>
+                    <span>Unit#: </span><br><input onkeyup="valid()" type="text" name="unitNo" tabindex="3" required><br>
+                    <span>Street#: </span><br><input onkeyup="valid()" type="text" name="streetNo" tabindex="4" required><br>
+                    <!--This pattern allows no digit, more than one letter-->
+                    <span>Street Name: </span><br><input onkeyup="valid()" pattern="[^0-9]{1,}" type="text" name="streetName" tabindex="5" required><br>
+                    <!--This pattern allows letters and space-->
+                    <span>City: </span><br><input onkeyup="valid()" pattern="[A-Za-z ]{1,}" type="text" name="city" tabindex="6" required><br>
+                    <span>Province: </span><br>
+                    <!--This is dropbox for province. Ontario is selected as default-->
+                    <select name="province" tabindex="7">
+                        <option value="ON" selected>Ontario</option>
+                        <option value="QC">Quebec</option>
+                        <option value="NS">Nova Scotia</option>
+                        <option value="NB">New Brunswick</option>
+                        <option value="MB">Manitoba</option>
+                        <option value="BC">British Columbia</option>
+                        <option value="PE">Prince Edward Island</option>
+                        <option value="SK">Saskatchewan</option>
+                        <option value="AB">Alberta</option>
+                        <option value="NL">Newfoundland and Labrador</option>
+                    </select>
+                    <br>
+                    <!--This pattern allows (Letter Digit Letter Digit Letter Digit)-->
+                    <span>Postal Code: </span><br><input onkeyup="valid()" pattern="[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]" type="text" name="postCd" tabindex="8" required><br>
+                    <h4>Account Info</h4>
+                    <!--This pattern allows ###-###-####-->
+                    <span>Phone#: </span><br><input onkeyup="valid()" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" name="phoneNo" tabindex="9" required><br>
+                    <!--This pattern allows email pattern-->
+                    <span>Email: </span><br><input onkeyup="valid()" type="email" name="email" tabindex="10" required><br>
+                    <!--username should start with letter and length should be more than 6-->
+                    <span>User Name: </span><br><input onkeyup="valid()" pattern="[A-Za-z].{5,}" type="text" name="userName" tabindex="11" required><br>
+                    <!--As we are not allowed to use pattern here, it will be dealt with by JavaScript function-->
+                    <span>Password: </span><br><input onkeyup="valid()" id="passwd" type="password" name="passwd" tabindex="12" required><br>
+                    <span>Password Match: </span><br><input onkeyup="valid()" id="rePasswd" type="password" name="rePasswd" tabindex="13" required><br>
+                    <!--This is hidden input which having my student info-->
+                    <input type="hidden" name="lastName" id="lastName" value="Yoon">
+                    <input type="hidden" name="studentId" id="studentId" value="124558172">
+                    <!--To make it in center, I put the buttons in the div-->
+                    <div class="button">
+                        <input id="submit" type="submit" tabindex="14">
+                        <input id="reset" type="reset" tabindex="15">
+                    </div>
+                </form>
+            </div>
+            <!--Side-->
+            <div class="side">
+            </div>
+        </div>
+        <!--Footer-->
+        <footer>
+            <div class="footer">
+                <p>Powered By KK2D</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+

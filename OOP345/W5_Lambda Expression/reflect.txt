@@ -1,0 +1,15 @@
+1. an explanation of the syntax used to pass a lambda expression to a function that will use that expression and the syntax used to receive the lambda expression in the function that uses it
+ First, to pass a lambda expression to a function, I stored it in a auto variable named "letter". It saved the lambda expression I made. And I can use function with () and parameter inside.
+ Second, To receive the lambda expression, I used templated function. template type can receive any type. Therefore, it also can receive function expression and use it.
+
+2. the corrected answers to the latest quiz that you received
+ Q1. Container, Algorithms, iterators
+
+3. a description of what you learned in completing this workshop
+ - How to use lambda expression to define function
+ - setting precision
+ - setting width
+ - setting alignment
+ - How to use enumeration
+ - How to pass and recieve lambda expression
+ - How to throw exception

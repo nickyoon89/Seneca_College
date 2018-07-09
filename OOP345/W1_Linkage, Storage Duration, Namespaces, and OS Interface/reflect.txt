@@ -1,0 +1,20 @@
+1. identify the linkage, if any, between your modules
+CString.cpp line 17: static int no = 10;
+It is to count how many data I am printing. Since it's local variable but using for another dobject, I thought it would be better to use it as internal linkage. I do not need to use external linkage because it is only being used in CString module only.
+
+2. identify the storage duration of the variable that keeps track of the record number in the insertion operator for your CString class.
+It is CString.cpp line 17: static int no.
+The duration of the variable is while the excution. It will be arrived til the program is actually finished even if other object is destroyed.
+
+3. what did you learn in completing this workshop?
+- how to use static variable to count printing number
+- how to deal with the error: "free(): not valid pointer"
+- how to deal with the error: "segmentation fault"
+- how to deal with the error: "double free or corruption (fasttop)"
+- how to debug runtime errors
+- how to add main() function argument in Visual Studio
+- how to implement main function to receive arguments
+- how to use getline() function with limit
+- Remembered how to define operator<<
+- Remembered about namespace definition and usage
+- Remembered file stream

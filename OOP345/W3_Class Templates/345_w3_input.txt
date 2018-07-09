@@ -1,0 +1,21 @@
+Pizza
+4.49
+Pierogi
+2.56
+Potato Chips
+2.29
+Black Tea
+4.49
+Green Tea
+3.46
+Fruit Tea
+2.29
+quit
+Black Tea
+5.29
+quit
+CPU
+central processing unit
+ALU
+arithmetic logic unit
+quit

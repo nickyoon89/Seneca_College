@@ -1,0 +1,31 @@
+Script started on Sun 10 Jun 2018 01:00:58 AM EDT
+]0;jyoon31@mtrx-node04pd:~/OOP345/w4[?1034h[jyoon31@mtrx-node04pd w4]$ w4 345_w4_messages.dat
+Command Line : w4 345_w4_messages.dat 
+
+Notifications
+=============
+
+Message
+ User  : jim
+ Tweet : Workshop 4 is cool
+
+Message
+ User  : harry
+ Reply : jim
+ Tweet : working on workshop 4 now
+
+
+Message
+ User  : dave
+ Tweet : what the ^#$%!
+
+Message
+ User  : john
+ Reply : harry
+ Tweet : I'm done
+
+
+]0;jyoon31@mtrx-node04pd:~/OOP345/w4[jyoon31@mtrx-node04pd w4]$ exit[K
+exit
+
+Script done on Sun 10 Jun 2018 01:01:03 AM EDT

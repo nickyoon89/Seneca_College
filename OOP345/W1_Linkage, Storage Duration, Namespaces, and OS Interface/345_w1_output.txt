@@ -1,0 +1,12 @@
+Script started on Fri 18 May 2018 08:27:08 AM EDT
+]0;chris.szalwinski@mtrx-node01pd:~/OOP345.184/w1[chris.szalwinski@mtrx-node01pd w1]$ w1 345_Courses.dat 
+Command Line : w1 345_Courses.dat 
+Reading records from file 345_Courses.dat
+ No  Record Contents ...
+ 10: OOP244 - Intro
+ 11: OOP345 - Objec
+ 12: GPU621 - Paral
+]0;chris.szalwinski@mtrx-node01pd:~/OOP345.184/w1[chris.szalwinski@mtrx-node01pd w1]$ exit
+exit
+
+Script done on Fri 18 May 2018 08:29:17 AM EDT

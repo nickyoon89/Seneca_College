@@ -1,0 +1,13 @@
+Script started on Sun 20 May 2018 07:37:59 PM EDT
+]0;chris.szalwinski@mtrx-node06pd:~/OOP345.184/w2[chris.szalwinski@mtrx-node06pd w2]$ w2 gutenberg_shakespeare 
+Command Line : w2 345_w2_gutenberg_shakespeare 
+Constructor - a.size = 0
+Constructor - b.size = 124456
+Copy Assignment - a.size = 124456
+Move Assignment - a.size = 124456
+Copy Constructor - c.size = 124456
+Move Constructor - d.size = 124456
+]0;chris.szalwinski@mtrx-node06pd:~/OOP345.184/w2[chris.szalwinski@mtrx-node06pd w2]$ exit
+exit
+
+Script done on Sun 20 May 2018 07:39:05 PM EDT

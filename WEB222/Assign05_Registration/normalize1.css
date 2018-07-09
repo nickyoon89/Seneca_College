@@ -1,0 +1,123 @@
+/*To make header part be center with background color and font color*/
+header {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color:#000000;
+    color: #FFFFFF;
+}
+
+/*make header text center*/
+#head {
+    width:fit-content;
+    line-height: 70px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*To remove margin on top and bottom*/
+#head h1{
+    margin: 0;
+}
+
+/*Decide main part's height and width*/
+div.main{
+    height: 450px;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+/*Decide main content's width and scroll function*/
+div.main-content {
+    width: 60%;
+    overflow: auto;
+    height: 450px;
+    float: left;
+}
+
+/*Make input and select to be same size and margin*/
+div.main-content input, div.main-content select{
+    height: 20px;
+    width: 200px;
+    margin: 1px 5px 3px;
+    box-sizing: border-box;
+}
+
+/*When the input is invalid, make the border red*/
+input:focus:invalid {
+    border: 2px solid red;
+}
+
+/*Make the button size same*/
+#submit, #reset{
+    margin: 1px auto;
+    width: 100px;
+}
+
+/*Make the submit and reset buttons to be center*/
+div.button {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+/*make every p with margin 5px*/
+p{
+    padding: 5px;
+}
+
+/*Decide width of side panel and back ground color*/
+div.side {
+    background-color: #DDDDDD;
+    width: 20%;
+    min-height: 300px;
+    float: left;
+}
+
+/*Decide width of navigation and back ground color*/
+nav {
+    background-color: #DDDDDD;
+    width: 20%;
+    min-height: 450px;
+    float:left;
+}
+
+/*To remove block point in front of the list*/
+nav ul {
+    -webkit-padding-start: 0px;
+    list-style-type: none;
+}
+
+/*To remove the underline of links*/
+nav ul a {
+    text-decoration: none;    
+}
+
+/*Not chaning color after visit the link*/
+nav ul a:visited {
+    color: black;
+}
+
+/*padding for list*/
+li{
+    padding: 5px;
+}
+
+/*Make footer to be center*/
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*Make text inside of the footer to be center, and change the background color*/
+footer div.footer {
+    background-color: #AAAAAA;
+    height: 30px;
+    width:100%;
+    float:left;
+    text-align: center;
+}
+
+/*Make it in the footer*/
+footer div.footer p {
+    margin: auto;
+}

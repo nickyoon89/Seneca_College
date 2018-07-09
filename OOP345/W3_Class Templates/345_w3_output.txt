@@ -1,0 +1,37 @@
+Script started on Mon 21 May 2018 09:50:11 AM EDT
+]0;chris.szalwinski@mtrx-node02pd:~/OOP345.184/w3[?1034h[chris.szalwinski@mtrx-node02pd w3]$ w3 345_w3_input.txt
+Command Line : w3 345_w3_input.txt 
+
+Inventory
+=========
+. . . . . . . . . . . . . 
+Price List
+-----------
+        Pizza : 4.49
+      Pierogi : 2.56
+ Potato Chips : 2.29
+    Black Tea : 4.49
+    Green Tea : 3.46
+
+Corrections
+-----------
+. . . 
+Price List
+-----------
+        Pizza : 4.49
+      Pierogi : 2.56
+ Potato Chips : 2.29
+    Black Tea : 5.29
+    Green Tea : 3.46
+
+Glossary
+========
+. . . . . 
+Entries
+-------
+  CPU : central processing unit
+  ALU : arithmetic logic unit
+]0;chris.szalwinski@mtrx-node02pd:~/OOP345.184/w3[chris.szalwinski@mtrx-node02pd w3]$ exit
+exit
+
+Script done on Mon 21 May 2018 09:50:24 AM EDT

@@ -1,0 +1,13 @@
+Script started on Wed 30 May 2018 08:53:28 PM EDT
+]0;jyoon31@mtrx-node02pd:~/OOP345/w2[?1034h[jyoon31@mtrx-node02pd w2]$ w2 345_w2_gutenberg_s[Khk[[Kakespeare
+Command Line : w2 345_w2_gutenberg_shakespeare 
+Constructor - a.size = 0
+Constructor - b.size = 124456
+Copy Assignment - a.size = 124456
+Move Assignment - a.size = 124456
+Copy Constructor - c.size = 124456
+Move Constructor - d.size = 124456
+]0;jyoon31@mtrx-node02pd:~/OOP345/w2[jyoon31@mtrx-node02pd w2]$ exit
+exit
+
+Script done on Wed 30 May 2018 08:53:44 PM EDT

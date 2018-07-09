@@ -1,0 +1,16 @@
+Script started on Wed 20 Jun 2018 06:46:33 PM EDT
+]0;jyoon31@mtrx-node02pd:~/OOP345/w5[?1034h[jyoon31@mtrx-node02pd w5]$ w5 345_w5.dat
+Command Line : w5 345_w5.dat 
+   1022342 67.40 C+  
+   1024567 73.50 B   
+   2031456 79.30 B+  
+   6032144 53.50 D   
+   1053250 92.10 A+  
+   3026721 86.50 A   
+   7420134 62.30 C   
+   9762314 58.70 D+  
+   6521045 34.60 F   
+]0;jyoon31@mtrx-node02pd:~/OOP345/w5[jyoon31@mtrx-node02pd w5]$ exit[K
+exit
+
+Script done on Wed 20 Jun 2018 06:46:36 PM EDT

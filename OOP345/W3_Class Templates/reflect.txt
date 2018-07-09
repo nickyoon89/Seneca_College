@@ -1,0 +1,27 @@
+- the corrected answers to the latest quiz that you received
+  Added below
+- a description of what you learned in completing this workshop
+  1. How to use template
+  2. How to use "sizeof" function
+  3. How to find specific value from array
+  4. Thought I should use strcmp when I have to compare two strings, but it turned out it works with operator== as well
+  5. Learned what "size_t" means
+  6. Learned size() member function is only for union, struct or class not the array
+  7. Learned the way to avoid unsigned, signed comparison by static_cast<>()
+
+Q2 Correction
+
+3 (1) A polymorphic object needs a _______ function to manage the copying of the current dynamic type.
+clone. a polymorphic object needs a clone function for copying dynamic type.
+
+5 (1) A non-type template parameter can be a float or a double (choose one of)
+	True _____	False ___V____
+Only non-float type can be non-type template parameter, so it's false.
+
+
+Q3 Correction
+
+8 (1) The expressions if(x!=0) and if(x) evaluate to the same result (choose one of)
+	True __V__	False _____
+When it can use "x!=0", x is arithmentic type. 
+So in that case, they are actually same meaning since 0 is false and anything else is true.
