@@ -5,7 +5,7 @@
 
 IPC144: Intro to Programing using C
 
-### Seconde Semester
+### Second Semester
 
 OOP244: Object Oriented Programming(C++)
 
