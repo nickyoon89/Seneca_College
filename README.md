@@ -1,5 +1,5 @@
-# Seneca_College OOP244
-## Seneca College works
+# Seneca_College
+## School Works
 
 ### First Semester
 IPC144: Intro to Programing using C
