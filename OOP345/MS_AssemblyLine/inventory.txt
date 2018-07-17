@@ -1,0 +1,5 @@
+CPU|123456|5|Central Processing Unit
+Memory|654321|10|Basic Flash Memory
+GPU|456789|2|General Porcessing Unit
+SSD|987654|5|Solid State Drive
+Power Supply|147852|20|Basic AC Power Supply

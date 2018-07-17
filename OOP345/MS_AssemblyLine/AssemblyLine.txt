@@ -1,0 +1,5 @@
+Power Supply|CPU
+CPU|GPU
+GPU|Memory
+Memory|SSD
+SSD

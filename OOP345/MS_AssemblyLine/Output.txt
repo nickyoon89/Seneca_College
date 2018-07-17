@@ -1,0 +1,12 @@
+CPU          [123456] Quantity 5   Description: Central Processing Unit
+Memory       [654321] Quantity 10   Description: Basic Flash Memory
+GPU          [456789] Quantity 2   Description: General Porcessing Unit
+SSD          [987654] Quantity 5   Description: Solid State Drive
+Power Supply [147852] Quantity 20   Description: Basic AC Power Supply
+
+Manual Validation
+getName(): CPU
+getSerialNumber(): 123456
+getSerialNumber(): 123457
+getQuality(): 5
+getQuality(): 4

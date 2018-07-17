@@ -1,0 +1,4 @@
+Elliott C.|Gaming PC|CPU|Memory|GPU|GPU|GPU|SSD|Power Supply
+Chris S.|Laptop|CPU|Memory|SSD|Power Supply
+Mary-Lynn M.|Desktop PC|CPU|Memory|Power Supply
+Chris T.|Micro Controller|GPU|GPU|Power Supply|SSD
