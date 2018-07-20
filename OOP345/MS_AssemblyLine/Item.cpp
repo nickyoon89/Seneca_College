@@ -35,7 +35,6 @@ void Item::updateQuantity() {
 	}
 }
 void Item::display(std::ostream& os, bool full) const {
-	//CPU          [123456] Quantity 5   Description: Central Processing Unit
 	os << std::setw(13) << std::left << std::fixed << name;
 	os << "[" << serialNumber << "] Quantity " << Quantity << "   Description: " << description << std::endl;
 }
