@@ -1,0 +1,30 @@
+[
+    {
+      "departmentId": 1,
+      "departmentName": "Creative Services"
+    },
+    {
+      "departmentId": 2,
+      "departmentName": "Product Development"
+    },
+    {
+      "departmentId": 3,
+      "departmentName": "Marketing"
+    },
+    {
+      "departmentId": 4,
+      "departmentName": "Strategic Planning"
+    },
+    {
+      "departmentId": 5,
+      "departmentName": "Accounting"
+    },
+    {
+      "departmentId": 6,
+      "departmentName": "Human Resources"
+    },
+    {
+      "departmentId": 7,
+      "departmentName": "Quality Analysis"
+    }
+  ]

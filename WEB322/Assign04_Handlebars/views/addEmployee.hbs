@@ -1,0 +1,124 @@
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Add Employee</h2>
+        <br />
+        <form method="post" action="/employees/add">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="firstName">First Name:</label>
+                            <input class="form-control" id="firstName" name="firstName" type="text" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="last_name">Last Name:</label>
+                            <input class="form-control" id="lastName" name="lastName" type="text"  />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input class="form-control" id="email" name="email" type="email" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="SSN">Social Security Num:</label>
+                            <input class="form-control" id="SSN" name="SSN" type="text"  />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="addressStreet">Address (Street):</label>
+                            <input class="form-control" id="addressStreet" name="addressStreet" type="text"  />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="addressCity">Address (City):</label>
+                        <input class="form-control" id="addressCity" name="addressCity" type="text"  />
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="addressState">Address (State):</label>
+                            <input class="form-control" id="addressState" name="addressState" type="text"  />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="addressPostal">Address (Zip Code):</label>
+                            <input class="form-control" id="addressPostal" name="addressPostal" type="text" />
+                        </div>
+                    </div>
+                </div>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Company Information</legend>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="isManager">Manager:</label>
+                            <input class="form-control" type="checkbox" name="isManager" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="employeeManagerNum">Employee's Manager Number:</label>
+                            <input class="form-control" id="employeeManagerNum" name="employeeManagerNum" type="text" />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Status:</label><br />
+                            <label  class="checkbox-inline">
+                                <input type="radio" id="statusFT" name="status" value="Full Time" /> Full Time
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="radio" id="statusFT" name="status" value="Part Time" /> Part Time
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="department">Department</label>
+                                <select class="form-control" name="department" id="department">
+                                    <option value="1">Creative Services</option>
+                                    <option value="2">Product Development</option>
+                                    <option value="3">Marketing</option>
+                                    <option value="4">Strategic Planning</option>
+                                    <option value="5">Accounting</option>
+                                    <option value="6">Human Resources</option>
+                                    <option value="7">Quality Analysis</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="hireDate">Hire Date</label>
+                            <input class="form-control" id="hireDate" name="hireDate" type="text" />
+                        </div>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <hr />
+
+            <input type="submit" class="btn btn-primary pull-right" value="Add Employee" /><br /><br /><br />
+
+        </form>
+    </div>
+</div>
