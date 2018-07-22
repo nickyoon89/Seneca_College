@@ -92,15 +92,16 @@
                     <div class="col-md-3">
                         <div class="form-group">
                             <label for="department">Department</label>
-                                <select class="form-control" name="department" id="department">
-                                    <option value="1">Creative Services</option>
-                                    <option value="2">Product Development</option>
-                                    <option value="3">Marketing</option>
-                                    <option value="4">Strategic Planning</option>
-                                    <option value="5">Accounting</option>
-                                    <option value="6">Human Resources</option>
-                                    <option value="7">Quality Analysis</option>
-                            </select>
+                                {{#if departments}}
+                                    <select class="form-control" name="department" id="department">
+                                        {{#each departments}}
+                                            <option value="{{departmentId}}">{{departmentName}}</option>
+                                        {{/each}}
+                                    </select>
+                                {{else}}
+                                    <div>No Departments</div>
+                                {{/if}}
+
                         </div>
                     </div>
                 </div>
