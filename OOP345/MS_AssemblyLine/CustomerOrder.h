@@ -17,8 +17,8 @@ class CustomerOrder
 {
 	std::string Name;
 	std::string Product;
-	unsigned int ItemCount;
-	ItemInfo** ItemList;
+	unsigned int ItemCount = 0u;
+	ItemInfo** ItemList = nullptr;
 	unsigned int field_width;
 
 public:

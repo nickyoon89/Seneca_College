@@ -10,3 +10,77 @@ getSerialNumber(): 123456
 getSerialNumber(): 123457
 getQuality(): 5
 getQuality(): 4
+
+************************
+Elliott C.
+Gaming PC
+[0]CPU - MISSING
+[0]Memory - MISSING
+[0]GPU - MISSING
+[0]GPU - MISSING
+[0]GPU - MISSING
+[0]SSD - MISSING
+[0]Power Supply - MISSING
+Chris S.
+Laptop
+[0]CPU - MISSING
+[0]Memory - MISSING
+[0]SSD - MISSING
+[0]Power Supply - MISSING
+Mary-Lynn M.
+Desktop PC
+[0]CPU - MISSING
+[0]Memory - MISSING
+[0]Power Supply - MISSING
+Chris T.
+Micro Controller
+[0]GPU - MISSING
+[0]GPU - MISSING
+[0]Power Supply - MISSING
+[0]SSD - MISSING
+Filled Elliott C., Gaming PC[Power Supply]
+Filled Chris S., Laptop[Power Supply]
+Filled Mary-Lynn M., Desktop PC[Power Supply]
+Filled Chris T., Micro Controller[Power Supply]
+Filled Elliott C., Gaming PC[CPU]
+Filled Chris S., Laptop[CPU]
+Filled Mary-Lynn M., Desktop PC[CPU]
+Filled Elliott C., Gaming PC[GPU]
+Filled Elliott C., Gaming PC[GPU]
+Filled Elliott C., Gaming PC[GPU]
+Filled Chris T., Micro Controller[GPU]
+Filled Chris T., Micro Controller[GPU]
+Filled Elliott C., Gaming PC[Memory]
+Filled Chris S., Laptop[Memory]
+Filled Mary-Lynn M., Desktop PC[Memory]
+Filled Elliott C., Gaming PC[SSD]
+Filled Chris S., Laptop[SSD]
+Filled Chris T., Micro Controller[SSD]
+
+COMPLETED
+Elliott C.
+Gaming PC
+[123458]CPU - FILLED
+[654321]Memory - FILLED
+[456789]GPU - FILLED
+[456790]GPU - FILLED
+[456791]GPU - FILLED
+[987654]SSD - FILLED
+[147852]Power Supply - FILLED
+Chris S.
+Laptop
+[123459]CPU - FILLED
+[654322]Memory - FILLED
+[987655]SSD - FILLED
+[147853]Power Supply - FILLED
+Mary-Lynn M.
+Desktop PC
+[123460]CPU - FILLED
+[654323]Memory - FILLED
+[147854]Power Supply - FILLED
+Chris T.
+Micro Controller
+[456792]GPU - FILLED
+[456793]GPU - FILLED
+[147855]Power Supply - FILLED
+[987656]SSD - FILLED

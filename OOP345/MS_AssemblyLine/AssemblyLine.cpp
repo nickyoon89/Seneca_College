@@ -9,16 +9,16 @@ void RunM1(std::ofstream&);
 std::vector<Item> Inventory;
 
 //UNCOMMENT FOR MILESTONE 2
-//#include "CustomerOrder.h"
-//void RunM2(std::ofstream&);
-//std::vector<CustomerOrder>Orders;
+#include "CustomerOrder.h"
+void RunM2(std::ofstream&);
+std::vector<CustomerOrder>Orders;
 
 
 //UNCOMMENT FOR MILESTONE 3
-//#include "Task.h"
-//#include "LineManager.h"
-//void RunM3(std::ofstream&);
-//std::vector<Task*> Tasks;
+#include "Task.h"
+#include "LineManager.h"
+void RunM3(std::ofstream&);
+std::vector<Task*> Tasks;
 
 int main(int argc, char *argv[])
 {
@@ -32,9 +32,9 @@ int main(int argc, char *argv[])
 	}
 
 	//**************//
-	RunM1(ofs);
+	//RunM1(ofs);
 	//RunM2(ofs);
-	//RunM3(ofs);
+	RunM3(ofs);
 	//**************//
 
 	ofs.close();
@@ -77,7 +77,7 @@ void RunM1(std::ofstream& os)
 	std::cin.get();
 }
 
-/*
+
 void RunM2(std::ofstream& os)
 {
 	RunM1(os);
@@ -131,9 +131,9 @@ void RunM2(std::ofstream& os)
 	else
 		os << "getFillStatus(): MISSING" << std::endl;
 }
-*/
 
-/*
+
+
 void RunM3(std::ofstream& os)
 {
 	std::ifstream file("inventory.txt");
@@ -188,4 +188,3 @@ void RunM3(std::ofstream& os)
 
 	while (!lm.Run(os)) {};		//loop running the assembly line until complete
 }
-*/

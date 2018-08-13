@@ -9,7 +9,7 @@ class Task : public Item
 {
 	std::deque<CustomerOrder> Orders;				//Current orders at this station
 	
-	Task* pNextTask;								//Reference to the next task
+	Task* pNextTask = nullptr;								//Reference to the next task
 
 public:
 	Task(std::string&);								//Constructor
