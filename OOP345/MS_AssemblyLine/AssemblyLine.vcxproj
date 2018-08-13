@@ -116,7 +116,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyLine.cpp" />
+    <ClCompile Include="CustomerOrder.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="LineManager.cpp" />
+    <ClCompile Include="Task.cpp" />
     <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
