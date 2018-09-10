@@ -1,0 +1,48 @@
+$bootstrap-header-table-height: 300px;
+$bootstrap-header-table-color: #F5F5F5;
+
+.bootstrap-header-table{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width:100%;
+    padding:0 30px;
+    .header-row{
+        background-color: $bootstrap-header-table-color;
+        border: 1px solid darken($bootstrap-header-table-color, 10%);
+        padding:8px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #6e6e6e;
+
+        .header-column{
+            text-align: center;
+        }
+    }
+    .body-rows{
+        .body-row{
+
+            border-bottom: 1px solid darken($bootstrap-header-table-color, 10%);
+
+            &:hover{
+                cursor:pointer;
+                background-color: lighten($bootstrap-header-table-color, 2%);
+            }
+            .body-column{
+                padding: 5px;  
+                word-wrap:break-word;
+                
+                &:first-child{
+                    padding-left:15px;
+                }
+
+                &:last-child{
+                    padding-right:15px;
+                }
+            }
+        }
+        border: 1px solid darken($bootstrap-header-table-color, 10%);
+        padding: 5px;
+        max-height: $bootstrap-header-table-height; 
+        overflow-y:scroll;
+        overflow-x: hidden;
+    }
+}

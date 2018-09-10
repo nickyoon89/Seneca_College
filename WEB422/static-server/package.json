@@ -1,0 +1,15 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "A template for a server that only serves static files",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Patrick Crawford",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
