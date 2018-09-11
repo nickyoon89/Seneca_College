@@ -1,4 +1,5 @@
-const mongoDBConnectionString = "Enter Your MongoDB Connection String Here";
+//
+const mongoDBConnectionString = "mongodb://jyoon31:zaq12wsx@ds159866.mlab.com:59866/teams-api-db";
 const HTTP_PORT = process.env.PORT || 8081;
 
 const express = require("express");
@@ -10,7 +11,7 @@ const dataService = require("./data-service.js");
 const data = dataService(mongoDBConnectionString);
 const app = express();
 
-app.use(bodyParser.json());
+app.use(bodyParser.json());   
 app.use(cors());
 
 // "Employee" Routes
