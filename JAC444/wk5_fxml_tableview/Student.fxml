@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.collections.*?>
+<?import jac444.wk5.*?>
+
+<VBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jac444.wk5.StudentController">
+	<HBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1">
+		<VBox prefWidth="350" xmlns:fx="http://javafx.com/fxml/1">
+			<Label text="File Name: "></Label>
+			<Region prefHeight="5.0"></Region>
+			<TextField fx:id="filename_box" promptText="Filename.txt"></TextField>
+			<TableView fx:id="tableView" editable="true">
+				<columns>
+					<TableColumn text="ID" prefWidth="80">
+						<cellValueFactory>
+							<PropertyValueFactory property="StudID"/>
+						</cellValueFactory>
+					</TableColumn>
+					<TableColumn text="Name" prefWidth="130">
+						<cellValueFactory>
+							<PropertyValueFactory property="name"/>
+						</cellValueFactory>
+					</TableColumn>
+					<TableColumn text="Course" prefWidth="70">
+						<cellValueFactory>
+							<PropertyValueFactory property="course"/>
+						</cellValueFactory>
+					</TableColumn>
+					<TableColumn text="Grade" prefWidth="70">
+						<cellValueFactory>
+							<PropertyValueFactory property="grade"/>
+						</cellValueFactory>
+					</TableColumn>
+				</columns>
+				<items>
+					<FXCollections fx:factory="observableArrayList">
+					</FXCollections>
+				</items>
+			</TableView>
+			<Region prefHeight="10.0"></Region>
+			<HBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1">
+				<TextField fx:id="name_box" prefWidth="120" promptText="Name" ></TextField>
+				<Region prefHeight="5.0"></Region>
+				<TextField fx:id="course_box" prefWidth="70" promptText="Course"></TextField>
+				<Region prefHeight="5.0"></Region>
+				<TextField fx:id="grade_box" prefWidth="70" promptText="Grade"></TextField>
+				<Region prefWidth="5.0"></Region>
+				<Button fx:id="conRec" mnemonicParsing="false" onAction="#confirmRecord" text="Change Save"></Button>
+			</HBox>
+			<Region prefHeight="10.0"></Region>
+			<HBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1">
+				<Button fx:id="addRec" mnemonicParsing="false" onAction="#addRecord" text="Add Record"></Button>
+				<Region prefWidth="5.0"></Region>
+				<Button fx:id="delRec" mnemonicParsing="false" onAction="#deleteRecord" text="Delete Record"></Button>
+			</HBox>
+			<Region prefHeight="10.0"></Region>
+			<HBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1">
+				<Button mnemonicParsing="false" onAction="#load" text="Load"></Button>
+				<Region prefWidth="5.0"></Region>
+				<Button mnemonicParsing="false" onAction="#save" text="Save"></Button>
+				<Region prefWidth="5.0"></Region>
+				<Button mnemonicParsing="false" onAction="#newF" text="New"></Button>
+				<Region prefWidth="5.0"></Region>
+				<Button mnemonicParsing="false" onAction="#edit" text="Edit"></Button>
+				<Region prefWidth="5.0"></Region>
+				<Button mnemonicParsing="false" onAction="#delete" text="Delete"></Button>
+			</HBox>
+			<Text fx:id="msg" strokeType="OUTSIDE" />
+		</VBox>
+	</HBox>
+</VBox>
